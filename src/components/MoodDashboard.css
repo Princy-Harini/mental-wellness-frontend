@@ -1,0 +1,38 @@
+.dashboard-container {
+  background: linear-gradient(to right, #f2f9f8, #e0f7fa);
+  padding: 30px 20px;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.dashboard-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2E7D32;
+}
+
+.chart-card,
+.achievement-card,
+.suggestion-card,
+.quote-card {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+
+.card-title {
+  font-weight: bold;
+  color: #388E3C;
+  margin-bottom: 10px;
+}
+
+.quote-card blockquote {
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #555;
+  text-align: center;
+  margin: 0;
+}

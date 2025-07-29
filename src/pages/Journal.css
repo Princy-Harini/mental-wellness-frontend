@@ -1,0 +1,84 @@
+.journal-container {
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #faf1f6, #e0f7fa);
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.journal-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #4a4a4a;
+}
+
+.journal-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.journal-form input,
+.journal-form textarea {
+  width: 100%;
+  max-width: 600px;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-family: 'Poppins';
+  font-size: 1rem;
+  resize: none;
+}
+
+.journal-form textarea {
+  height: 150px;
+}
+
+.journal-form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  margin-top: 1rem;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.journal-form button:hover {
+  background-color: #388e3c;
+}
+
+.journal-message {
+  margin-top: 1rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.journal-suggestion {
+  background: #ffffffd0;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.btn-tip-link {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #1976d2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-tip-link:hover {
+  background: #135ba1;
+}
