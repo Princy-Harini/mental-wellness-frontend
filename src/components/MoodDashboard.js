@@ -22,7 +22,7 @@ function MoodDashboard() {
   useEffect(() => {
     const fetchMoods = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/mood");
+const res = await axios.get(`${process.env.REACT_APP_BASE_URL}/mood`);
         const data = res.data;
 
         setMoods(data);
