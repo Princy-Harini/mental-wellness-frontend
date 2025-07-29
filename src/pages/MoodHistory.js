@@ -10,7 +10,7 @@ function MoodHistory() {
   useEffect(() => {
     const fetchMoods = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/mood");
+const res = await axios.get(`${process.env.REACT_APP_BASE_URL}/mood`);
         setMoods(res.data);
       } catch (err) {
         console.error("Error fetching mood history:", err);

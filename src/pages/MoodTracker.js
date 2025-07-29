@@ -25,10 +25,11 @@ function MoodTracker() {
     }
 
     try {
-      await axios.post("http://localhost:5000/mood", {
-        mood: selectedMood,
-        note: note
-      });
+      await axios.post(`${process.env.REACT_APP_BASE_URL}/mood`, {
+  mood: selectedMood,
+  note: note
+});
+
       setMessage("✅ Mood saved successfully!");
       setSelectedMood('');
       setNote('');

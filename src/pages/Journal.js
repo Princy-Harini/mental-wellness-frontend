@@ -16,7 +16,8 @@ function Journal() {
     }
 
     try {
-      await axios.post("http://localhost:5000/journal", { title, entry });
+await axios.post(`${process.env.REACT_APP_BASE_URL}/journal`, { title, entry });
+
       setMessage("Thanks for sharing your thoughts. You're doing great 💚");
 
       // Suggestions

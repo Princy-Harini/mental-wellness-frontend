@@ -21,11 +21,10 @@ function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/feedback', formData, {
-        headers: {
-          'Content-Type': 'application/json'
-        }
-      });
+      await axios.post(`${process.env.REACT_APP_BASE_URL}/feedback`, formData, {
+  headers: { 'Content-Type': 'application/json' }
+});
+
       setSuccessMsg(`🌸 Thank you, ${formData.name}, for your heartfelt message!`);
       setFormData({ name: '', email: '', message: '' });
       setCharCount(0);
