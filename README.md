@@ -32,3 +32,16 @@ git clone https://github.com/Princy-Harini/mental-wellness-frontend.git
 cd mental-wellness-frontend
 npm install
 npm start
+
+📁 Folder Structure
+/src
+
+/pages – All page components
+
+/components – Navbar, Footer, etc.
+
+/assets – Images
+
+App.js – Main routes
+
+index.js – Entry point
