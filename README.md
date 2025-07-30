@@ -27,10 +27,15 @@ This is the frontend of the **Mental Wellness Hub** web application, designed to
 📁 Folder Structure
 
 /src
+
 /pages – All page components
+
 /components – Navbar, Footer, etc.
+
 /assets – Images
+
 App.js – Main routes
+
 index.js – Entry point
 
 ## 🚀 Getting Started Locally
